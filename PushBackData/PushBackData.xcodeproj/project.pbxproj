@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2585349F3149BEF6E347EDF2 /* Pods_PushBackData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F49689191EFAE58DE2BC0 /* Pods_PushBackData.framework */; };
 		AD3EB0B31ED6765D00D384D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EB0B21ED6765D00D384D4 /* AppDelegate.swift */; };
 		AD3EB0B81ED6765D00D384D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3EB0B61ED6765D00D384D4 /* Main.storyboard */; };
 		AD3EB0BA1ED6765D00D384D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3EB0B91ED6765D00D384D4 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56FBCD01603729625202346D /* Pods-PushBackData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushBackData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushBackData/Pods-PushBackData.debug.xcconfig"; sourceTree = "<group>"; };
+		6ECFF1627A0ECF7A06D05ACE /* Pods-PushBackData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushBackData.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushBackData/Pods-PushBackData.release.xcconfig"; sourceTree = "<group>"; };
 		AD3EB0AF1ED6765D00D384D4 /* PushBackData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushBackData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3EB0B21ED6765D00D384D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD3EB0B71ED6765D00D384D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		AD3EB0BE1ED6765D00D384D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3EB0C41ED680D700D384D4 /* TodoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		AD3EB0C61ED680E900D384D4 /* AddItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		D85F49689191EFAE58DE2BC0 /* Pods_PushBackData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushBackData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2585349F3149BEF6E347EDF2 /* Pods_PushBackData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		947177AEE42E6BFE6C9F7E3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56FBCD01603729625202346D /* Pods-PushBackData.debug.xcconfig */,
+				6ECFF1627A0ECF7A06D05ACE /* Pods-PushBackData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD3EB0A61ED6765D00D384D4 = {
 			isa = PBXGroup;
 			children = (
 				AD3EB0B11ED6765D00D384D4 /* PushBackData */,
 				AD3EB0B01ED6765D00D384D4 /* Products */,
+				947177AEE42E6BFE6C9F7E3F /* Pods */,
+				DB6038D9F2EA43563F0F4AFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +83,14 @@
 			path = PushBackData;
 			sourceTree = "<group>";
 		};
+		DB6038D9F2EA43563F0F4AFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D85F49689191EFAE58DE2BC0 /* Pods_PushBackData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD3EB0C11ED6765D00D384D4 /* Build configuration list for PBXNativeTarget "PushBackData" */;
 			buildPhases = (
+				ADFC2B2ADFD5ABB1A1E09921 /* [CP] Check Pods Manifest.lock */,
 				AD3EB0AB1ED6765D00D384D4 /* Sources */,
 				AD3EB0AC1ED6765D00D384D4 /* Frameworks */,
 				AD3EB0AD1ED6765D00D384D4 /* Resources */,
+				0AD7EEE2F287FEB8363D8B58 /* [CP] Embed Pods Frameworks */,
+				B5D7CE2CC993A73757F20195 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD7EEE2F287FEB8363D8B58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushBackData/Pods-PushBackData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADFC2B2ADFD5ABB1A1E09921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D7CE2CC993A73757F20195 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushBackData/Pods-PushBackData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD3EB0AB1ED6765D00D384D4 /* Sources */ = {
@@ -264,6 +339,7 @@
 		};
 		AD3EB0C21ED6765D00D384D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FBCD01603729625202346D /* Pods-PushBackData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PushBackData/Info.plist;
@@ -276,6 +352,7 @@
 		};
 		AD3EB0C31ED6765D00D384D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ECFF1627A0ECF7A06D05ACE /* Pods-PushBackData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PushBackData/Info.plist;
