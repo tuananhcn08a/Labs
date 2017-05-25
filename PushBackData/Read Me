@@ -1,0 +1,8 @@
+Case:
+- You have a table view to list name of todo list
+- To add new todo item you push to Add Item View
+- After fill name of todo item and click SAVE set pop to List View and update list to show change
+
+- Bạn có một view gốc gổm 1 table view liệt kê danh sách ghi chú các việc cần làm
+- Để thêm một ghi chú bạn push và một view mới là Add Item View
+- Ở Add Item View có textField điền tên của ghi chú sau đó ấn Save thì pop về trang List và cập nhật lại table view để hiển thị thay đổi
